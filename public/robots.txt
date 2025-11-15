@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /.next/
+Disallow: /api/
+
+Sitemap: https://rkmetalizacoes.com.br/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
