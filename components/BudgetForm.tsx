@@ -7,7 +7,7 @@ interface BudgetFormProps {
   onSuccess?: () => void
 }
 
-export default function BudgetForm({ onSuccess }: BudgetFormProps) {
+export default function BudgetForm({ onSuccess: _onSuccess }: BudgetFormProps) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
