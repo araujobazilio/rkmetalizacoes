@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, Mail, Phone, MessageCircle, Truck, Clock, Shield } from 'lucide-react'
+import { MapPin, Mail, MessageCircle, Truck, Clock, Shield } from 'lucide-react'
 
 export default function Shipping() {
   const handleWhatsApp = () => {
